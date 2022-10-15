@@ -20,7 +20,7 @@ frame = ttk.Frame(
         width=100,
         padding=(30, 15),
         relief=tk.RAISED,)
-frame.config(
+frame.config()
 frame.pack()
 
 # Define a button as child to frame
@@ -45,5 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
